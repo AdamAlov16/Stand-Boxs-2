@@ -1,0 +1,263 @@
+.top-player-place {
+	border-radius: 50%;
+	font-weight: 600;
+	font-size: 13px;
+	background-color: #d85337;
+	color: #191919;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border: 3px solid #1b1b1b;
+}
+
+.best-player-card-avatar {
+	width: 130px;
+	height: 130px;
+	position: relative;
+}
+
+.best-player-card-avatar__avatar {
+	width: 100%;
+	height: 100%;
+}
+
+.best-player-card-avatar__place.top-player-place {
+	width: 42px;
+	height: 42px;
+	font-weight: 900;
+	font-size: 20px;
+	position: absolute;
+	bottom: -21px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.info-item[data-v-1a605eb6] {
+	border-radius: 10px;
+	background-color: #1b1b1b;
+	flex-grow: 1;
+	flex-basis: 0;
+	height: 79px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info-item__title[data-v-1a605eb6] {
+	color: #ada6a1;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.info-item__value[data-v-1a605eb6] {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.info-item[data-v-1a605eb6]:first-child {
+	margin-right: 10px;
+}
+
+@media(max-width:400px) {
+	.info-item[data-v-1a605eb6] {
+		flex-basis: 100%;
+	}
+
+	.info-item[data-v-1a605eb6]:first-child {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
+
+.best-player-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 40px 40px;
+	color: #d85337;
+	height: 310px;
+}
+
+.best-player-card .best-player-card-avatar {
+	z-index: 2;
+}
+
+.best-player-card__name {
+	margin-bottom: 13px;
+	font-size: 16px;
+	max-width: 100%;
+	height: 18px;
+}
+
+.best-player-card__name:hover {
+	text-decoration: none;
+}
+
+.best-player-card__drop-block {
+	border-radius: 10px;
+	background-color: #1b1b1b;
+	height: 270px;
+	width: 100%;
+	padding-top: 115px;
+	margin-top: -85px;
+	position: relative;
+	overflow: hidden;
+}
+
+.best-player-card__drop-block .app-line {
+	width: 177px;
+}
+
+.best-player-card__drop-title {
+	color: #ada6a1;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.best-player-card__drop-img-container {
+	height: 95px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.best-player-card__drop-img {
+	max-width: 90%;
+	max-height: 95%;
+	filter: drop-shadow(1px 0 0 currentColor) drop-shadow(-1px 0 0 currentColor) drop-shadow(0 1px 0 currentColor) drop-shadow(0 -1px 0 currentColor) drop-shadow(0 0 5px currentColor) drop-shadow(0 0 15px currentColor);
+}
+
+.best-player-card__drop-name {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 12px;
+	max-width: 200px;
+}
+
+.best-player-card__stats {
+	display: flex;
+	width: 100%;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width:767px) {
+	.best-player-card {
+		padding: 20px;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width:575px) {
+	.best-player-card {
+		padding: 10px;
+	}
+}
+
+@media(max-width:400px) {
+	.best-player-card__stats {
+		flex-wrap: wrap;
+	}
+}
+
+.best-player-row-avatar {
+	width: 65px;
+	height: 65px;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.best-player-row-avatar__img {
+	width: 100%;
+	height: 100%;
+}
+
+.best-player-row-avatar__place.top-player-place {
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.best-player-row {
+	color: #d85337;
+}
+
+.best-player-row td {
+	background-color: #1b1b1b;
+	height: 65px;
+	padding: 0 5px;
+}
+
+.best-player-row td:first-child {
+	background-color: transparent;
+	background-image: linear-gradient(90deg,transparent 25px,#1b1b1b 0);
+	padding-left: 0;
+}
+
+.best-player-row td:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.best-player-row__user {
+	display: flex;
+	align-items: center;
+}
+
+.best-player-row__username {
+	max-width: 200px;
+	margin-left: 35px;
+}
+
+.best-player-row__username:hover {
+	text-decoration: none;
+}
+
+@media only screen and (max-width:991px) {
+	.best-player-row__username {
+		margin-left: 25px;
+		max-width: 110px;
+	}
+}
+
+.best-drops-table {
+	padding: 40px;
+	background-color: #141414;
+	border-radius: 10px;
+}
+
+.best-drops-table table {
+	width: 100%;
+	border-spacing: 0 5px;
+	min-width: 610px;
+}
+
+.best-drops-table th {
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+@media only screen and (max-width:767px) {
+	.best-drops-table {
+		padding: 20px;
+	}
+
+	.best-drops-table__wrapper {
+		overflow-x: auto;
+	}
+}
+
+@media only screen and (max-width:575px) {
+	.best-drops-table {
+		padding: 10px;
+	}
+}
