@@ -27,15 +27,93 @@
 	<link rel="stylesheet" href="data/style/sslug.css">
 	<link rel="stylesheet" href="data/layy.css">
 
-	
+
 
 	<link rel="stylesheet" href="css2/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css2/sendpulse-prompt.min.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css2/stylessk.css">
 	<link rel="stylesheet" type="text/css" href="css2/style.css?v=15">
 
+<style>
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:6px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#32312e;
+box-shadow:0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 5px;
+border-radius: 10px;
+background-color:#d85337;
+box-shadow:0px 1px 1px #fff inset;
+
+background-position:center;
+background-repeat:no-repeat;
+}
+
+::-webkit-resizer{
+background-repeat:no-repeat;
+width:7px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 8px;
+}
+</style>
 </head>
 <body>
+
+	<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 203216135, {disableButtonTooltip: "1"});
+</script>
+
+<script>
+document.getElementById('burgermenus').onclick = function(){
+   document.getElementById('burgeraside').style.transform =  document.getElementById('burgeraside').style.transform == 'translateX(-100%)' ? 'translateX(0%)' : 'translateX(-100%)' ;
+}
+document.getElementById('burgermenusclose').onclick = function(){
+   document.getElementById('burgeraside').style.transform =  document.getElementById('burgeraside').style.transform == 'translateX(-100%)' ? 'translateX(0%)' : 'translateX(-100%)' ;
+}
+</script>
+<script type="text/javascript">
+var server_time = "2021-08-03 18:36:49";
+</script>
+<script type="text/javascript" src="js2/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js2/jquery.smoothscroll.js"></script>
+<script type="text/javascript" src="js2/jquery.arcticmodal-0.3.min.js"></script>
+<script type="text/javascript" src="js2/jquery.animateNumber.min.js"></script>
+<script type="text/javascript" src="js2/moment.js"></script>
+<script type="text/javascript" src="js2/slider.js"></script>
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js2/master/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="js2/script.js?v=18"></script>
+<script type="text/javascript" src="js2/ion.sound.min.js"></script>
+<script type="text/javascript" src="/js2/core.js?v=1229"></script>
+<script type="text/javascript">
+inprocess = false;
+$('#button_buy').on('click', function () {
+if (inprocess == true)return false; else inprocess = true;
+reach_goal('get_lucky_click');
+window.dataLayer.push({"ecommerce": {"add": {"products": [product]}}});
+ion.sound.play("button_click_on");
+$('#button_buy').addClass('inprocess');
+reloadRulet();
+});
+new ClipboardJS('#copy');
+$('#copy').click(function () {
+alert("Успешно скопировано");
+});
+</script>
+<script type="text/javascript" src="js/core.js?v=67"></script>	
 
 </body>
 </html>
